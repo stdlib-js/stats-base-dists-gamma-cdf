@@ -4,7 +4,27 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-06-28)
+
+<section class="features">
+
+### Features
+
+-   [`e7b3a48`](https://github.com/stdlib-js/stdlib/commit/e7b3a483b78fc2619f8e1753f5c0b614a2e796a8) - add C implementation for gamma CDF
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - use correct Makefile for examples/c
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +32,8 @@
 
 <details>
 
+-   [`1a48ebb`](https://github.com/stdlib-js/stdlib/commit/1a48ebbacff02aa8f374081b3b636bc2c0a027ef) - **fix:** use correct Makefile for examples/c _(by Philipp Burckhardt)_
+-   [`e7b3a48`](https://github.com/stdlib-js/stdlib/commit/e7b3a483b78fc2619f8e1753f5c0b614a2e796a8) - **feat:** add C implementation for gamma CDF _(by Philipp Burckhardt)_
 -   [`c7860af`](https://github.com/stdlib-js/stdlib/commit/c7860af1896d84360294b65f3e37982ca631c435) - **bench:** refactor random number generation in `stats/base/dists/gamma` [(#4929)](https://github.com/stdlib-js/stdlib/pull/4929) _(by Karan Anand)_
 
 </details>
@@ -24,9 +46,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
