@@ -67,6 +67,11 @@ where `alpha` is the shape parameter and `beta` is the rate parameter of the dis
 To use in Observable,
 
 ```javascript
+cdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-cdf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-gamma-cdf/tags). For example,
+
+```javascript
 cdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-cdf@v0.3.0-umd/browser.js' )
 ```
 
@@ -79,7 +84,7 @@ var cdf = require( 'path/to/vendor/umd/stats-base-dists-gamma-cdf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-cdf@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-cdf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -187,7 +192,7 @@ y = mycdf( 8.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-cdf@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-cdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
