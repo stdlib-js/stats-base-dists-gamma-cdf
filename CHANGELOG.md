@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-07)
+## Unreleased (2026-06-08)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`21d7848`](https://github.com/stdlib-js/stdlib/commit/21d78480cab3cd0e896d4a7a4a6fe6e62c2c7e31) - **docs:** move JS examples before C API documentation [(#12704)](https://github.com/stdlib-js/stdlib/pull/12704) _(by Philipp Burckhardt)_
 -   [`3480dc2`](https://github.com/stdlib-js/stdlib/commit/3480dc202d5214003486601367322d985b8bfe29) - **chore:** address commit comments for commit `9c42a28` [(#10853)](https://github.com/stdlib-js/stdlib/pull/10853) _(by Partha Das)_
 -   [`9c42a28`](https://github.com/stdlib-js/stdlib/commit/9c42a2830057c061cb449cabfa56d58caba8362b) - **bench:** refactor to use string interpolation in `stats/base/dists/gamma` [(#10713)](https://github.com/stdlib-js/stdlib/pull/10713) _(by Siddhartha Mondal)_
 
@@ -37,9 +38,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Partha Das
+-   Philipp Burckhardt
 -   Siddhartha Mondal
 
 </section>
